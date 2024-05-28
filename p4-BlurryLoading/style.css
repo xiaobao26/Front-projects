@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Honk&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', 'Arial', 'Helvetica', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.bg-img {
+    background: no-repeat center center/cover url('src/Simba.jpg');
+    background-size: cover;
+    position:absolute;
+    max-width: 100%;
+    height: auto;
+    /* top:0;
+    left: 0; */
+    /* width: 100vw;
+    height: 100vh; */
+    object-fit: contain;
+    /* I wanna the image at the blow of the percentage text  */
+    z-index: -1;
+    filter: blur(0px);
+}
+
+
+.img-container {
+
+    height: 100vh;
+}
+
+.loading-percentage {
+    font-size: 100px;
+    color: #fff;
+}
